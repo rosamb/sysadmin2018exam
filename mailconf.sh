@@ -173,7 +173,7 @@ mail_location = mbox:~/Mail:INBOX=/var/mail/%u
 namespace inbox {
   inbox = yes
 }
-mail_priviledged_group = mail 
+mail_privileged_group = mail 
 EOF
 
 cat > /etc/dovecot/conf.d/10-master.conf << "EOF"
